@@ -1,0 +1,132 @@
+div#hormenu {
+    display: none;
+}
+
+div#phonemenu button.sub {
+    background-color: #343A40;
+    border: 0px;
+    color:#FFFFFF;
+    font-family: BS_nav_element_font;
+    font-size: 15px;
+    width: 120px;
+    height: 31px;
+    text-decoration: none;
+    /*border-radius: 5px;*/
+}
+
+div#phonemenu button.sub:hover {
+    background: #02b49c;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+div#phonemenu div#submenu{
+    display: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+div#phonemenu ul li ul li:hover div#submenu {
+    display: block;
+    position: absolute;
+    /*z-index: 1;*/
+    width: 120px;
+    /*padding: 0;*/
+    margin: 0px 0 0 0px;
+    border-radius: 5px;
+    /*border: 1px solid black;*/
+    /*text-decoration: none;*/
+}
+
+div#phonemenu .nav-item:hover ul{
+    display: block;
+    position: absolute;
+    /*z-index: 1;*/
+    width: 120px;
+    /*padding: 0;*/
+    margin: -32px 0 0 87px;
+    border-radius: 5px;
+}
+
+div#phonemenu a {
+    background-color: #343A40;
+    display: block;
+    padding: 5px;
+    color: white;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    font-family: BS_nav_element_font;
+    font-size: 15px;
+}
+
+div#phonemenu a2 {
+    display: block;
+    padding: 5px;
+    color: white;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    font-family: BS_nav_element_font;
+    font-size: 15px;
+}
+
+div#phonemenu a:hover {
+    background: #02b49c;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+div#phonemenu a2:hover {
+    background: #02b49c;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+button.sub_novita {
+    background-color: transparent;
+    border: none;
+    color:#FFFFFF;
+    font-family: BS_nav_element_font;
+    font-size: 15px;
+    width: 120px;
+    height: 31px;
+}
+
+button.sub_novita:hover {
+    background: #02b49c;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: BS_nav_title_font;
+    src: url(../font/Streetbomber.ttf);
+}
+
+@font-face {
+    font-family: BS_nav_element_font;
+    src: url(../font/Garet-Book.otf);
+}
+
+h5.title {
+    font-family: BS_nav_title_font;
+    font-size: 28px;
+}
+
+div#phonemenu div#submenu ul {
+    width: 120px;
+    /*margin: 0;*/
+    /*padding: 0;*/
+    border: 0;
+    list-style-type: none;
+}
+
+::placeholder{
+    font-family: BS_nav_element_font;
+}
+
+.nav-item ul{
+    display: none;
+    list-style-type: none;
+}

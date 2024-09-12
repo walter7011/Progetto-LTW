@@ -1,0 +1,12 @@
+a.copyright {
+    font-family: BS_body_font;
+}
+
+div.copyright {
+    font-family: BS_body_font;
+}
+
+@font-face {
+    font-family: BS_body_font;
+    src: url(../font/Garet-Book.otf);
+}

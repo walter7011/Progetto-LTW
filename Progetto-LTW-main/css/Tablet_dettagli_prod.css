@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+}
+
+div.sconto {
+    display: none;
+}
+
+div.product {
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+    column-gap: 5%;
+}
+
+div.imgprod {
+    /* imagini scorrevoli */
+    background-color: white;
+}
+
+div.textprod {
+    font-family: BS_body_font;
+}
+
+div.description {
+    font-family: BS_body_font;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@font-face {
+    font-family: BS_body_font;
+    src: url(../font/Garet-Book.otf);
+}
+
+@font-face {
+    font-family: BS_title_font;
+    src: url(../font/Streetbomber.ttf);
+} 

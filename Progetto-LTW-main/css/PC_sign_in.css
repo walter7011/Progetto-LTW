@@ -1,0 +1,49 @@
+body {          
+    background-image: URL("../immagini/sfondo_login_PC.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-color:rgb(58, 58, 58)
+}
+
+input.i1 {
+    border: none;
+    border-bottom: 2px solid rgb(37, 37, 37);
+    background-color: transparent;
+}
+
+input.i1[type="date"] {
+    color:rgb(26, 26, 26);
+}
+
+input[type="radio"] {
+    accent-color: rgb(27, 27, 27);
+}
+
+
+div.sign_in_form {
+    background: #ffffffba; 
+    display: block; 
+    margin: auto; 
+    width: 500px; 
+    text-align: center; 
+    border-radius: 3%; 
+    height: 700px; 
+    margin-top: 10px; 
+    font-family: BS_body_font;
+    font-size: 15px;
+}
+
+@font-face {
+    font-family: BS_title_font;
+    src: url(../font/Streetbomber.ttf);
+}
+
+h1.title {
+    font-family: BS_title_font;
+    font-size: 65px;
+}
+
+@font-face {
+    font-family: BS_body_font;
+    src: url(../font/Garet-Book.otf);
+}

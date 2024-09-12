@@ -1,0 +1,54 @@
+body {
+    background-color: white;
+}
+
+div.sconto {
+    background-color: #02b49c;
+    text-align: center;
+    width: 100%;
+    font-family: BS_body_font;
+    color: rgb(255, 255, 255);
+}
+
+div.ins_codice {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    font-family: BS_body_font;
+}
+
+div.messaggio {
+    margin-left: 5%;
+    margin-bottom: 3%;
+    font-family: BS_body_font;
+}
+
+@font-face {
+    font-family: BS_body_font;
+    src: url(../font/Garet-Book.otf);
+}
+
+@font-face {
+    font-family: BS_title_font;
+    src: url(../font/Streetbomber.ttf);
+}
+
+a.copyright {
+    font-family: BS_body_font;
+}
+
+div.copyright {
+    font-family: BS_body_font;
+}
+
+.img_sconto_PC {
+    width: 100%;
+}
+
+.img_sconto_Tablet{
+    display: none;
+}
+
+.img_sconto_Smartphone {
+    display: none;
+}

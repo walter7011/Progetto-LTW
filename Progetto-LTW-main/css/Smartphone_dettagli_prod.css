@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+}
+
+div.sconto {
+    display: none;
+}
+
+div.product {
+    grid-template-columns: 1fr 1fr;
+}
+
+div.imgprod {
+    /* imagini scorrevoli */
+    background-color: white;
+}
+
+div.textprod {
+    font-family: BS_body_font;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+div.description {
+    font-family: BS_body_font;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+@font-face {
+    font-family: BS_body_font;
+    src: url(../font/Garet-Book.otf);
+}
+
+@font-face {
+    font-family: BS_title_font;
+    src: url(../font/Streetbomber.ttf);
+}

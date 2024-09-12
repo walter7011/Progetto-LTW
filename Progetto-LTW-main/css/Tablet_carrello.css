@@ -1,0 +1,89 @@
+body {
+    background-color: white;
+}
+
+div.sconto {
+    background-color: #02b49c;
+    text-align: center;
+    width: 100%;
+    font-family: BS_body_font;
+    color: rgb(255, 255, 255);
+    margin-top: 17.5px;
+}
+
+img {
+    width: 65%;
+}
+
+img.pcimg {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1.75%;
+}
+
+img.phnimg {
+    display: none;
+}
+
+div.product {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div.imgprod {
+    /* imagini scorrevoli */
+    background-color: transparent;
+    width: 80%;
+    display: inline-block;
+    margin-left: 16%;
+    
+}
+
+div.textprod {
+    font-family: BS_body_font;
+    width: 85%;
+    display: inline-block;
+    text-align: left;
+    margin-left: 2%;
+    font-size: 130%;
+    margin-top: 11%;
+    margin-bottom: 11%;
+}
+
+div.description {
+    font-family: BS_body_font;
+}
+
+@font-face {
+    font-family: BS_body_font;
+    src: url(../font/Garet-Book.otf);
+}
+
+@font-face {
+    font-family: BS_title_font;
+    src: url(../font/Streetbomber.ttf);
+}
+
+div.prodotto_carrello {
+    text-align: center; /*contenuto centrato*/
+    margin-top: 50px;    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid;
+}
+
+div.totale {
+    text-align: center;
+    font-family: BS_body_font;
+    font-size: 130%;
+    
+}
+
+div.buttons {
+    text-align: center;
+    margin-top: 2%;
+}
+
+div.buttons button {
+    margin-bottom: 1%;
+}

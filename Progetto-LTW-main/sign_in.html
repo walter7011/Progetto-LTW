@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    
+    <link rel="stylesheet" media="screen and (min-width: 1231px)" href="css\PC_sign_in.css">
+    <link rel="stylesheet" media="screen and (min-width: 601px) and (max-width: 1230px)" href="css\Tablet_sign_in.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="css\Smartphone_sign_in.css">
+    
+    <link rel="icon" type="image/png" href="immagini/bws_logo.png">
+	<link rel="shortcut icon" type="image/png" href="immagini/bws_logo.png">
+    <title>Sign in - Bestway Streetwear</title>
+    <script>
+
+        function verificaForm() {
+
+            if (document.signInForm.name.value == "") {
+                alert("Prima di continuare devi inserire un nome");
+                return false;                                                       
+            }
+
+            if (document.signInForm.surname.value == "") {
+                alert("Prima di continuare devi inserire un cognome");
+                return false;
+            }
+
+            if (document.signInForm.username.value == "") {
+                alert("Prima di continuare devi inserire un nome utente");
+                return false;
+            }
+
+            if (document.signInForm.email.value == "") {
+                alert("Prima di continuare devi inserire un indirizzo E-mail");
+                return false;
+            }
+
+            if (document.signInForm.password.value == "") {
+                alert("Prima di continuare devi inserire una password");
+                return false;
+            }
+
+            if (document.signInForm.password.value.length < 8) {
+                alert("La password deve contenere almeno 8 caratteri");
+                return false;
+            }
+
+            if (document.signInForm.birthdate.value == "") {
+                alert("Prima di continuare devi inserire una data di nascita");
+                return false;
+            }
+
+            if (document.signInForm.telephone.value == "") {
+                alert("Prima di continuare devi inserire un telefono");
+                return false;
+            }
+
+            if (isNaN(document.signInForm.telephone.value)) {
+                alert("Il telefono deve contenere valori numerici");
+                return false;
+            }
+
+            if (document.signInForm.gender.value != "M" && document.signInForm.gender.value != "F") {
+                alert("Prima di continuare devi selezionare il sesso");
+                return false;
+            }
+
+            return true;
+        }
+
+    </script>
+</head>
+
+
+<body>
+
+    <div class="sign_in_form">
+
+        <br>
+
+        <img src="immagini/bws_logo.png">
+    
+        <h1 class="title">Bestway Streetwear</h1>
+
+        <br>
+
+        <form name="signInForm" action="sign_in.php" target="" method="POST" onsubmit="return verificaForm();">
+
+            <input class="i1" type="text" name="name" maxlength="25" placeholder="Nome">
+            <br>
+            <br>
+            <input class="i1" type="text" name="surname" maxlength="25" placeholder="Cognome">
+            <br>
+            <br>
+            <input class="i1" type="text" name="username" maxlength="25" placeholder="Nome Utente">
+            <br>
+            <br>
+            <input class="i1" type="email" name="email" maxlength="30" placeholder="E-mail">
+            <br>
+            <br>
+            <input class="i1" type="password" name="password" maxlength="25" placeholder="Password">
+            <br>
+            <br>
+            <input class="i1" type="text" name="telephone" placeholder="Telefono">
+            <br>
+            <br>
+            <input class="i1" type="date" name="birthdate">
+            <br>
+            <br>
+            <input type="radio" name="gender" value="M">Uomo
+            <input type="radio" name="gender" value="F">Donna
+            <br>
+            <br>
+            <input type="submit" class="btn btn-dark btn-rounded" value="Registrati">
+        
+        </form>
+
+    </div>
+
+    <script>
+
+        document.signInForm.username.addEventListener("input", function() {
+            if (document.signInForm.username.value.includes(" ")) {
+                alert("il nome non può contenere spazi");
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>

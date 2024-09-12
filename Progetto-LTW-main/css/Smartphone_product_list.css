@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+}
+
+div.sconto {
+    background-color: #02b49c;
+    text-align: center;
+    font-family: BS_body_font;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    margin-top: 17px;
+}
+
+div.products {
+    /* div che contiene le card dei prodotti */
+    background-color: white;
+    margin-left: 17%;
+}
+
+div.percorso {
+    /* div del percorso di navigazione */
+    background-color: white;
+    margin-left: 3%;
+}
+
+
+
+@font-face {
+    font-family: BS_body_font;
+    src: url(../font/Garet-Book.otf);
+}
+
+@font-face {
+    font-family: BS_title_font;
+    src: url(../font/Streetbomber.ttf);
+}
+
+p.font {
+    font-family: BS_body_font;
+}
+
+input.font {
+    font-family: BS_body_font;
+}
+
+a.copyright {
+    font-family: BS_body_font;
+}
+
+div.copyright {
+    font-family: BS_body_font;
+}
+
+div.card {
+    margin-bottom: 7%;
+}
+
+div.img-container {
+    height: 380px;
+}

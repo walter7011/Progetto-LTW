@@ -1,0 +1,51 @@
+.img2{
+    display: none;
+}
+
+div.sconto {
+    background-color: #02b49c;
+    text-align: center;
+    width: 100%;
+    font-family: BS_body_font;
+    color: rgb(255, 255, 255);
+    margin-top: 18px;
+}
+
+@font-face {
+    font-family: BS_body_font;
+    src: url(../font/Garet-Book.otf);
+}
+
+div.thumb_hide2 { display: none; visibility: hidden; position: absolute; }
+div.thumb_show2 { visibility: visible; }
+
+.visibile2{visibility: visible;}
+.nascosta2{visibility: hidden; position: absolute;}
+
+button#thumb_img_left2:hover{
+    background: #02b49c;
+}
+
+button#thumb_img_right2:hover{
+    background: #02b49c;
+}
+
+div.flex-shoes2 {
+    margin: auto;
+}
+
+div.flex-shoes{
+    display: none;
+}
+
+.vedi_scarpe2{
+    /*height: 35px;*/
+    border-radius: 5px;
+    border-color: black;
+    color: black;
+    background-color: white;
+}
+
+.vedi_scarpe2:hover{
+    background: #02b49c;
+}

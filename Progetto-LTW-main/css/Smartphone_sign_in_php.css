@@ -1,0 +1,32 @@
+body {          
+    background-image: URL("../immagini/sfondo_login_Smartphone.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-color:rgb(58, 58, 58)
+}
+
+div.message {
+    background: #ffffffba; 
+    display: block; 
+    text-align: center; 
+    border-radius: 3%; 
+    height: 240px;
+    margin-top: 50px; 
+    font-family: BS_body_font;
+    font-size: 17px;
+}
+
+@font-face {
+    font-family: BS_title_font;
+    src: url(../font/Streetbomber.ttf);
+}
+
+h1.title {
+    font-family: BS_title_font;
+    font-size: 65px;
+}
+
+@font-face {
+    font-family: BS_body_font;
+    src: url(../font/Garet-Book.otf);
+}
